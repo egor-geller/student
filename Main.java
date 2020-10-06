@@ -5,12 +5,11 @@ import java.math.*;
 
 public class Main {
     public static void main(String[] args){
-        int a,b,c;
-        double z;
+        double z,a,b,c;
         Scanner in = new Scanner(System.in);
-        a = in.nextInt();
-        b = in.nextInt();
-        c = in.nextInt();
+        a = in.nextDouble();
+        b = in.nextDouble();
+        c = in.nextDouble();
         z = func(a,b,c);
         System.out.println(z);
     }
