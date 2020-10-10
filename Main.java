@@ -11,10 +11,12 @@ public class Main {
        return Math.pow(x,2);
     }
     public static void funcA(int a){
+        int sum = 0;
         for (int i = a; i <= a+100; i++)
         {
-            System.out.println(func(i));
+            sum += func(i);
         }
+        System.out.println(sum);
     }
 
     public static void main(String[] args){
